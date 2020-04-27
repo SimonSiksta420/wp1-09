@@ -16,7 +16,7 @@ $damage
 <?php
 while ($HP > 0) {  
 $damage = rand(MAX_DAMAGE, MIN_DAMAGE) ?>
-<p> Aktuální poškození je: <?= $damage ?> </p>
+<p> Byl jsi zraněn a bude ti odečteno <?= $damage ?> </p> životů.
 <?php
 
 if ($HP >= $damage) {
@@ -26,7 +26,7 @@ else {
     $HP = 0;
 }
 ?>
- Zbýva ti <?= $HP ?> 
+ Zbýva ti <?= $HP ?> životů.
 <?php } ?> 
 
 <p> Konec Hry </p>
