@@ -26,8 +26,8 @@ else {
     $HP = 0;
 }
 ?>
-<p> Zbýva ti <?= $HP ?> </p>
-}
+ Zbýva ti <?= $HP
+} ?>
 
 <p> Konec Hry </p>
 </body>
