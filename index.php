@@ -22,10 +22,10 @@ $damage = rand(MAX_DAMAGE, MIN_DAMAGE) ?>
 <?php
 
 if ($HP >= $damage) {
-    $HP = $HP - $damage
+    $HP = $HP - $damage;
 }
 else {
-    $HP = 0
+    $HP = 0;
 }
 ?>
 
