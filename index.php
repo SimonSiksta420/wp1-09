@@ -23,7 +23,8 @@ $damage = rand(MAX_DAMAGE, MIN_DAMAGE) ?>
 
 if ($HP >= $damage) {
     $HP = $HP - $damage
-} else {
+ 
+else 
     $HP = 0
 }
 ?>
