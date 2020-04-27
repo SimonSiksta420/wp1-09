@@ -27,7 +27,7 @@ else {
 }
 ?>
  Zbýva ti <?= $HP ?> 
-<?php ?> }
+<?php } ?> 
 
 <p> Konec Hry </p>
 </body>
