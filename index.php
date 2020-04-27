@@ -21,7 +21,7 @@ $damage = rand(MAX_DAMAGE, MIN_DAMAGE) ?>
 <p> Aktuální poškození je: <?= $damage ?> </p>
 <?php
 
-if ($HP => $damage) {
+if ($HP >= $damage) {
     $HP = $HP - $damage
 } else {
     $HP = 0
