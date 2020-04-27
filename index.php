@@ -14,9 +14,7 @@ $damage
 <body>
 
 <?php
-while ($HP > 0) { ?> 
-
-<?php
+while ($HP > 0) {  
 $damage = rand(MAX_DAMAGE, MIN_DAMAGE) ?>
 <p> Aktuální poškození je: <?= $damage ?> </p>
 <?php
@@ -28,7 +26,6 @@ else {
     $HP = 0;
 }
 ?>
-
 <p> Zbýva ti <?= $HP ?> </p>
 }
 
